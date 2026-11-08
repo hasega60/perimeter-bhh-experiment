@@ -1,0 +1,89 @@
+\begin{table}[htbp]
+\centering
+\caption{Region-specific instance-level MAPE (\%). REF is the MAPE obtained when the simulated mean $\bar{L}$ is used as the estimate. All coefficients are calibrated at $N \ge 50$.}
+\label{tab:A2}
+\scriptsize
+\begin{tabular}{llrrrrrrr}
+\toprule
+\multicolumn{9}{l}{\textit{Panel A: Primary validation ($N \ge 50$)}} \\
+\midrule
+Region & Model & $N = 50$ & 75 & 100 & 200 & 300 & 400 & 500 \\
+\midrule
+Ellipse 2:1 & PC-Const & 3.46 & 2.66 & 2.32 & 1.62 & 1.33 & 1.16 & 0.96 \\
+$P = 3.87$ & PC-FN & 3.56 & 2.73 & 2.35 & 1.62 & 1.29 & 1.11 & 0.91 \\
+ & REF & 3.45 & 2.63 & 2.29 & 1.62 & 1.27 & 1.09 & 0.89 \\
+\addlinespace[2pt]
+Capsule 3:1 & PC-Const & 3.34 & 2.64 & 2.33 & 1.81 & 1.27 & 1.08 & 1.05 \\
+$P = 4.28$ & PC-FN & 3.43 & 2.70 & 2.35 & 1.79 & 1.25 & 1.05 & 1.03 \\
+ & REF & 3.34 & 2.64 & 2.32 & 1.74 & 1.24 & 1.05 & 1.03 \\
+\addlinespace[2pt]
+Quarter circle & PC-Const & 3.45 & 2.64 & 2.34 & 1.69 & 1.28 & 1.17 & 1.01 \\
+$P = 4.03$ & PC-FN & 3.50 & 2.68 & 2.35 & 1.67 & 1.28 & 1.13 & 0.99 \\
+ & REF & 3.44 & 2.64 & 2.34 & 1.65 & 1.28 & 1.13 & 0.98 \\
+\addlinespace[2pt]
+C-shape & PC-Const & 5.71 & 3.51 & 2.50 & 1.55 & 1.29 & 1.13 & 1.03 \\
+$P = 6.07$ & PC-FN & 4.73 & 3.14 & 2.40 & 1.56 & 1.25 & 1.12 & 1.00 \\
+ & REF & 3.12 & 2.51 & 2.21 & 1.55 & 1.24 & 1.12 & 1.00 \\
+\addlinespace[2pt]
+Rectangle 2:1 & PC-Const & 3.55 & 2.81 & 2.27 & 1.53 & 1.34 & 1.13 & 0.95 \\
+$P = 4.24$ & PC-FN & 3.58 & 2.82 & 2.29 & 1.52 & 1.33 & 1.10 & 0.93 \\
+ & REF & 3.54 & 2.80 & 2.27 & 1.52 & 1.34 & 1.10 & 0.93 \\
+\addlinespace[2pt]
+Right triangle & PC-Const & 4.36 & 3.43 & 2.65 & 1.79 & 1.37 & 1.18 & 0.91 \\
+$P = 4.83$ & PC-FN & 4.06 & 3.27 & 2.58 & 1.81 & 1.40 & 1.19 & 0.95 \\
+ & REF & 3.94 & 3.13 & 2.46 & 1.71 & 1.36 & 1.18 & 0.92 \\
+\addlinespace[2pt]
+Thin triangle & PC-Const & 7.41 & 5.36 & 4.13 & 2.50 & 1.73 & 1.34 & 1.28 \\
+$P = 5.78$ & PC-FN & 6.55 & 4.95 & 3.94 & 2.59 & 1.87 & 1.47 & 1.42 \\
+ & REF & 4.60 & 3.37 & 2.81 & 1.93 & 1.37 & 1.20 & 1.09 \\
+\addlinespace[2pt]
+U-shape & PC-Const & 4.48 & 3.08 & 2.42 & 1.64 & 1.29 & 1.07 & 1.01 \\
+$P = 5.94$ & PC-FN & 3.85 & 2.86 & 2.35 & 1.63 & 1.31 & 1.09 & 0.99 \\
+ & REF & 3.34 & 2.68 & 2.29 & 1.63 & 1.29 & 1.07 & 0.99 \\
+\addlinespace[2pt]
+T-shape & PC-Const & 3.83 & 2.89 & 2.51 & 1.70 & 1.33 & 1.16 & 1.13 \\
+$P = 5.37$ & PC-FN & 3.48 & 2.78 & 2.50 & 1.69 & 1.31 & 1.14 & 1.12 \\
+ & REF & 3.40 & 2.75 & 2.50 & 1.69 & 1.31 & 1.14 & 1.12 \\
+\midrule
+\multicolumn{9}{l}{\textit{Panel B: Small-$N$ validation ($N < 50$)}} \\
+\midrule
+Region & Model & $N = 10$ & 20 & 30 & 40 &  &  &  \\
+\midrule
+Ellipse 2:1 & PC-Const & 9.78 & 5.67 & 4.32 & 3.86 &  &  &  \\
+$P = 3.87$ & PC-FN & 9.89 & 6.04 & 4.56 & 4.06 &  &  &  \\
+ & REF & 9.40 & 5.66 & 4.32 & 3.86 &  &  &  \\
+\addlinespace[2pt]
+Capsule 3:1 & PC-Const & 12.61 & 6.52 & 4.37 & 3.61 &  &  &  \\
+$P = 4.28$ & PC-FN & 9.89 & 5.24 & 4.10 & 3.68 &  &  &  \\
+ & REF & 9.61 & 5.11 & 4.10 & 3.59 &  &  &  \\
+\addlinespace[2pt]
+Quarter circle & PC-Const & 10.33 & 6.26 & 4.81 & 4.08 &  &  &  \\
+$P = 4.03$ & PC-FN & 12.04 & 6.66 & 5.02 & 4.12 &  &  &  \\
+ & REF & 10.40 & 6.22 & 4.81 & 4.06 &  &  &  \\
+\addlinespace[2pt]
+C-shape & PC-Const & 11.95 & 8.66 & 7.39 & 6.20 &  &  &  \\
+$P = 6.07$ & PC-FN & 7.39 & 5.73 & 5.52 & 4.91 &  &  &  \\
+ & REF & 7.11 & 4.77 & 4.11 & 3.44 &  &  &  \\
+\addlinespace[2pt]
+Rectangle 2:1 & PC-Const & 9.40 & 6.27 & 4.76 & 4.07 &  &  &  \\
+$P = 4.24$ & PC-FN & 9.51 & 6.40 & 5.10 & 4.09 &  &  &  \\
+ & REF & 8.97 & 6.16 & 4.77 & 4.04 &  &  &  \\
+\addlinespace[2pt]
+Right triangle & PC-Const & 12.77 & 8.21 & 6.39 & 5.23 &  &  &  \\
+$P = 4.83$ & PC-FN & 12.85 & 7.41 & 5.70 & 4.78 &  &  &  \\
+ & REF & 12.53 & 7.43 & 5.52 & 4.63 &  &  &  \\
+\addlinespace[2pt]
+Thin triangle & PC-Const & 18.99 & 13.59 & 10.78 & 8.72 &  &  &  \\
+$P = 5.78$ & PC-FN & 15.66 & 11.14 & 9.02 & 7.53 &  &  &  \\
+ & REF & 15.01 & 8.97 & 6.22 & 5.33 &  &  &  \\
+\addlinespace[2pt]
+U-shape & PC-Const & 9.83 & 7.24 & 6.01 & 5.28 &  &  &  \\
+$P = 5.94$ & PC-FN & 9.22 & 5.69 & 4.83 & 4.33 &  &  &  \\
+ & REF & 8.69 & 5.66 & 4.57 & 3.79 &  &  &  \\
+\addlinespace[2pt]
+T-shape & PC-Const & 12.43 & 8.70 & 6.04 & 4.40 &  &  &  \\
+$P = 5.37$ & PC-FN & 11.02 & 6.89 & 4.79 & 3.76 &  &  &  \\
+ & REF & 11.03 & 6.40 & 4.36 & 3.59 &  &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}
