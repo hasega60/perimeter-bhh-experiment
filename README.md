@@ -7,11 +7,11 @@ Daisuke Hasegawa, The University of Tokyo.
 
 This repository investigates a perimeter-based finite-size correction for the expected Euclidean traveling salesman problem (TSP) tour length. Toroidal boundary conditions are used as a boundary-free reference to separate interior and boundary contributions. The study evaluates two models:
 
-**PC-Const:** `E[L_N] ≈ beta * sqrt(N * A) + gamma * P`
+**PC-Const:** $E[L_N] ≈ beta * sqrt(N * A) + gamma * P$
 
-**PC-FN:** `E[L_N] ≈ beta * sqrt(N * A) + (gamma_inf + c / sqrt(N)) * P`
+**PC-FN:** $E[L_N] ≈ beta * sqrt(N * A) + (gamma_inf + c / sqrt(N)) * P$
 
-Here, `N` is the number of uniformly sampled demand points, `A` is region area, and `P` is its perimeter.
+Here, $N$ is the number of uniformly sampled demand points, $A$ is region area, and $P$ is its perimeter.
 
 ## Files
 
